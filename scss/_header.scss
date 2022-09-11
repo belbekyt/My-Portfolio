@@ -1,0 +1,25 @@
+header{
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 65px);
+    overflow: hidden;
+    background-color: #f0f2ff;
+}
+
+.circle1, .circle2{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 300px;
+    background-color: $blueDark;
+}
+
+.circle1{
+    bottom: -220px;
+    left: -150px;
+}
+
+.circle2{
+    right: -200px;
+    top: -150px;
+}
