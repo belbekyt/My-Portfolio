@@ -66,21 +66,40 @@ header {
   overflow: hidden;
   background-color: #f0f2ff;
 }
+header h1 {
+  font-size: 60px;
+  margin: 30vh 0 -10px 12%;
+}
+header h2 {
+  font-size: 38px;
+  color: #0da2ff;
+  margin-left: 12%;
+}
 
-.circle1, .circle2 {
+.box {
   position: absolute;
-  width: 600px;
-  height: 600px;
-  border-radius: 300px;
+  height: calc(100vh - 5px);
+  width: 650px;
+  right: -150px;
+  top: 0;
+  -webkit-transform: skew(-22deg);
+          transform: skew(-22deg);
   background-color: #0da2ff;
 }
 
-.circle1 {
-  bottom: -220px;
-  left: -150px;
+.about {
+  width: 100%;
 }
 
-.circle2 {
-  right: -200px;
-  top: -150px;
+.main-text {
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 60px;
+}
+
+.shelf {
+  width: 70px;
+  height: 4px;
+  background-color: RGB(33, 37, 41);
+  margin-bottom: 40px;
 }

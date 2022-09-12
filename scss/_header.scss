@@ -4,22 +4,45 @@ header{
     height: calc(100vh - 65px);
     overflow: hidden;
     background-color: #f0f2ff;
+
+    h1{
+        font-size: 60px;
+        margin: 30vh 0 -10px 12%;
+    }
+
+    h2{
+        font-size: 38px;
+        color: $blueDark;
+        margin-left: 12%;
+    }
 }
 
-.circle1, .circle2{
+// .circle1, .circle2{
+//     position: absolute;
+//     width: 600px;
+//     height: 600px;
+//     border-radius: 300px;
+//     background-color: $blueDark;
+// }
+
+// .circle1{
+//     display: none;
+//     bottom: -220px;
+//     left: -150px;
+// }
+
+// .circle2{
+//     display: none;
+//     right: -200px;
+//     top: -150px;
+// }
+
+.box{
     position: absolute;
-    width: 600px;
-    height: 600px;
-    border-radius: 300px;
+    height: calc(100vh - 5px);
+    width: 650px;
+    right: -150px;
+    top: 0;
+    transform: skew(-22deg);
     background-color: $blueDark;
-}
-
-.circle1{
-    bottom: -220px;
-    left: -150px;
-}
-
-.circle2{
-    right: -200px;
-    top: -150px;
 }
