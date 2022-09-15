@@ -1,5 +1,6 @@
 .about{
     width: 100%;
+    color: $blackLight;
 }
 
 .main-text{
@@ -13,4 +14,17 @@
     height: 4px;
     background-color: $blackLight;
     margin-bottom: 40px;
+}
+
+.about-info{
+    div{
+        width: 450px;
+        background-color: rgb(202, 202, 202);
+        height: 400px;
+    }
+
+    p{
+        line-height: 20px;
+        font-size: 15px;
+    }
 }

@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 .menu {
   height: 60px;
   font-size: 14px;
@@ -89,6 +93,7 @@ header h2 {
 
 .about {
   width: 100%;
+  color: RGB(57, 57, 57);
 }
 
 .main-text {
@@ -100,6 +105,16 @@ header h2 {
 .shelf {
   width: 70px;
   height: 4px;
-  background-color: RGB(33, 37, 41);
+  background-color: RGB(57, 57, 57);
   margin-bottom: 40px;
+}
+
+.about-info div {
+  width: 450px;
+  background-color: rgb(202, 202, 202);
+  height: 400px;
+}
+.about-info p {
+  line-height: 20px;
+  font-size: 15px;
 }
