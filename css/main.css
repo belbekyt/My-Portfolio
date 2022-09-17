@@ -109,12 +109,37 @@ header h2 {
   margin-bottom: 40px;
 }
 
-.about-info div {
-  width: 450px;
-  background-color: rgb(202, 202, 202);
-  height: 400px;
+.about-info img {
+  width: 70%;
+  border-radius: 35px;
 }
 .about-info p {
   line-height: 20px;
   font-size: 15px;
+}
+
+.about-column {
+  background-color: rgb(202, 202, 202);
+  height: 400px;
+  margin-bottom: 80px;
+}
+
+.language {
+  width: 100%;
+  height: 33px;
+  line-height: 33px;
+}
+.language span {
+  padding-right: 13px;
+}
+
+.language-name {
+  width: 100px;
+  background-color: #0da2ff;
+}
+
+.language-percent1 {
+  width: 85%;
+  background-color: #8cd3ff;
+  position: relative;
 }
