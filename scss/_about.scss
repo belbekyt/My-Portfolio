@@ -13,7 +13,7 @@
     width: 70px;
     height: 4px;
     background-color: $blackLight;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
 }
 
 .about-info{
@@ -30,7 +30,7 @@
 
 .about-column{
     height: 400px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .language{
@@ -95,13 +95,8 @@
     }
 }
 
-
 .language-percent6{
     &:before{
-        width: 20%;
+        width: 10%;
     }
-}
-
-.second-row{
-    margin-bottom: 0px !important;
 }
