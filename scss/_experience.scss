@@ -20,11 +20,11 @@
 
 .card-details{
     width: 50%;
-    margin-right: 80px;
+    margin-right: 5rem;
 
     h2{
         font-size: 40px;
-        margin-top: -20px;
+        margin-top: -1rem;
     }
 
     h5{
@@ -32,10 +32,27 @@
     }
     
     p{
-        margin: 40px 0 60px 0;
+        margin: 2rem 0 0 0;
+        font-size: 0.9rem;
     }
 
     span{
-        margin-top: -60px;
+        display: block;
+        margin-top: 3rem;
+        font-size: 0.9rem;
+    }
+
+    a{
+        display: inline-block;
+        margin-top: 1.6rem;
+        margin-left: 1rem;
+        color: $blackLight;
+        font-weight: bold;
+        text-decoration: none;
+
+        &:hover{
+            transition: .3s ease-in-out;
+            font-size: 1.1rem;
+        }
     }
 }
