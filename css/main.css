@@ -223,9 +223,22 @@ header h2 {
   color: RGB(57, 57, 57);
   font-weight: bold;
   text-decoration: none;
+  position: relative;
+  z-index: 2;
 }
 .card-details a:hover {
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
   font-size: 1.1rem;
+}
+.card-details a::before {
+  position: absolute;
+  content: "";
+  width: 45px;
+  height: 45px;
+  border-radius: 23px;
+  left: -25px;
+  top: -9px;
+  z-index: 1;
+  background-color: rgb(196, 196, 196);
 }

@@ -49,10 +49,24 @@
         color: $blackLight;
         font-weight: bold;
         text-decoration: none;
+        position: relative;
+        z-index: 2;
 
         &:hover{
             transition: .3s ease-in-out;
             font-size: 1.1rem;
+        }
+
+        &::before{
+            position: absolute;
+            content: '';
+            width: 45px;
+            height: 45px;
+            border-radius: 23px;
+            left: -25px;
+            top: -9px;
+            z-index: 1;
+            background-color: rgb(196, 196, 196);
         }
     }
 }
