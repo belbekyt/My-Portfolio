@@ -189,10 +189,16 @@ header h2 {
   width: 80%;
   border: 1px solid black;
   border-radius: 30px;
-  padding: 60px 0 10px 100px;
+  padding: 50px 0 20px 80px;
 }
-.experience-card img {
-  width: 250px;
+
+.jw-logo {
+  width: 100%;
+  height: 200px;
+}
+
+.epinote-logo {
+  width: 100%;
   height: 250px;
 }
 
@@ -224,12 +230,13 @@ header h2 {
   font-weight: bold;
   text-decoration: none;
   position: relative;
-  z-index: 2;
+  z-index: 0;
 }
-.card-details a:hover {
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-  font-size: 1.1rem;
+.card-details a i {
+  font-size: 1.2rem;
+  margin-left: 6px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 .card-details a::before {
   position: absolute;
@@ -238,7 +245,15 @@ header h2 {
   height: 45px;
   border-radius: 23px;
   left: -25px;
-  top: -9px;
-  z-index: 1;
-  background-color: rgb(196, 196, 196);
+  top: -6px;
+  z-index: -1;
+  background-color: #8cd3ff;
+}
+.card-details a:hover i {
+  margin-left: 1.3rem;
+}
+.card-details a:hover::before {
+  width: 215px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
