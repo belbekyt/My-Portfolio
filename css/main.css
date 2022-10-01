@@ -189,21 +189,19 @@ header h2 {
   width: 80%;
   border: 1px solid black;
   border-radius: 30px;
-  padding: 50px 0 20px 80px;
+  padding: 50px 40px 20px 80px;
 }
 
 .jw-logo {
   width: 100%;
-  height: 200px;
 }
 
 .epinote-logo {
   width: 100%;
-  height: 250px;
 }
 
 .card-details {
-  width: 50%;
+  width: 55%;
   margin-right: 5rem;
 }
 .card-details h2 {
@@ -256,4 +254,11 @@ header h2 {
   width: 215px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+.card-photo {
+  width: 45%;
+}
+.card-photo img {
+  margin: auto;
 }
