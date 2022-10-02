@@ -11,7 +11,7 @@ body {
 
 .menu {
   height: 60px;
-  font-size: 14px;
+  font-size: 15px;
   width: 100%;
   line-height: 15px;
 }
@@ -91,7 +91,7 @@ header h2 {
   background-color: #0da2ff;
 }
 
-.about {
+.about-section {
   width: 100%;
   color: RGB(57, 57, 57);
 }
@@ -120,7 +120,7 @@ header h2 {
 
 .about-column {
   height: 400px;
-  margin-bottom: 60px;
+  margin-bottom: 110px;
 }
 
 .language {
@@ -177,7 +177,7 @@ header h2 {
   width: 10%;
 }
 
-.experience {
+.experience-section {
   background-color: #f9f9f9;
 }
 
@@ -260,5 +260,14 @@ header h2 {
   width: 45%;
 }
 .card-photo img {
+  margin: auto;
+}
+
+.projects-gallery {
+  width: 90%;
+}
+
+.project-card {
+  width: 430px;
   margin: auto;
 }
