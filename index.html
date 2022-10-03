@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Miłosz Pawłowski - Portfolio</title>
 
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
@@ -67,7 +70,7 @@
     <!---------------- -->
 
     <section class="about-section d-flex container-fluid align-items-center flex-column" id="about">
-        <h2 class="main-text text-center">O MNIE</h2>
+        <h2 id="aboutText" class="main-text text-center">O MNIE</h2>
         <div class="shelf"></div>
         <div class="row about-info d-flex justify-content-center">
             <div class="col-12 col-md-5 mx-3 d-flex flex-column align-items-center about-column">
@@ -197,8 +200,11 @@
                     <img src="photo/computer.jpg" alt="Project image" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title text-center mb-4">Portfolio</h5>
-                        <p class="card-text text-center">Projekt mojego portfolio</p>
-                        <a href="#" class="btn btn-primary">Github</a>
+                        <p class="card-text text-center">Projekt mojego portfolio, został stworzony we wrzeniu i październiku 2022. Użyłem przy nim HTML, CSS, JavaScript, Bootstrapa oraz JQuery.</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-primary mx-2">Github</a>
+                            <a href="#" class="btn btn-primary mx-2">Zobacz</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -207,12 +213,23 @@
                     <img src="photo/computer.jpg" alt="Project image" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title text-center mb-4">Portfolio</h5>
-                        <p class="card-text text-center">Projekt mojego portfolio</p>
-                        <a href="#" class="btn btn-primary">Github</a>
+                        <p class="card-text text-center">Projekt mojego portfolio, został stworzony we wrzeniu i październiku 2022. Użyłem przy nim HTML, CSS, JavaScript, Bootstrapa oraz JQuery.</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-primary  mx-2">Github</a>
+                            <a href="#" class="btn btn-primary mx-2">Zobacz</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+
+    <!-- --------------- -->
+    <!-- Contact section -->
+    <!-- --------------- -->
+
+    <section class="container-fluid d-flex flex-column align-items-center" id="projects">
+
     </section>
 </body>
 </html>
