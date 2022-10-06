@@ -9,35 +9,41 @@ body {
   scroll-behavior: smooth;
 }
 
-.menu {
-  height: 60px;
+.navbar {
   font-size: 15px;
-  width: 100%;
   line-height: 15px;
+  height: 60px;
 }
-.menu i {
-  font-size: 20px;
+
+.bi-github, .bi-linkedin {
+  font-size: 21px;
+  padding: 12px;
+  overflow: hidden;
 }
-.menu i:hover {
+.bi-github:hover, .bi-linkedin:hover {
   font-size: 23px;
 }
 
-.nav-margin {
-  margin-left: 20px;
-}
-
-.nav-brand {
+.navbar-brand {
   line-height: 25px;
   font-size: 18px;
   color: #0da2ff;
   font-weight: bold;
   margin-left: 40px;
 }
+.navbar-brand:hover {
+  color: #0da2ff;
+}
+
+.icons-holder a {
+  text-decoration: none;
+}
 
 .nav-item {
   position: relative;
   z-index: 1;
   overflow: hidden;
+  padding: 0 12px 0 0;
 }
 .nav-item:before {
   content: "";
@@ -45,7 +51,6 @@ body {
   width: 0;
   background-color: #bfe6ff;
   height: 100%;
-  top: 0;
   -webkit-transition: 0.6s;
   transition: 0.6s;
   z-index: -1;
@@ -55,6 +60,10 @@ body {
 }
 .nav-item:hover::before {
   width: 100%;
+}
+
+.margin-link {
+  margin-right: 1.5rem;
 }
 
 .nav-effect {
@@ -270,4 +279,24 @@ header h2 {
 .project-card {
   width: 430px;
   margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .margin-responsive {
+    margin-top: 12px;
+  }
+  .margin-link {
+    margin: 0;
+  }
+  .nav-item {
+    background-color: white;
+    padding: 3px 0;
+    text-align: center;
+  }
+  .nav-item::before {
+    left: 0;
+  }
+  .nav-item:hover::before {
+    width: 75%;
+  }
 }

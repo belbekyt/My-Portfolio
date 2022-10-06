@@ -1,34 +1,40 @@
-.menu{
-    height: 60px;
+.navbar{
     font-size: 15px;
-    width: 100%;
     line-height: 15px;
+    height: 60px;
+}
 
-    i{
-        font-size: 20px;
-
-        &:hover{
-            font-size: 23px;
-        }
+.bi-github, .bi-linkedin{
+    font-size: 21px;
+    padding: 12px;
+    overflow: hidden;
+    
+    &:hover{
+        font-size: 23px;
     }
 }
 
-.nav-margin{
-    margin-left: 20px;
-}
-
-.nav-brand{
+.navbar-brand{
     line-height: 25px;
     font-size: 18px;
     color: $blueDark;
     font-weight: bold;
     margin-left: 40px;
+
+    &:hover{
+        color: $blueDark;
+    }
+}
+
+.icons-holder a{
+    text-decoration: none;
 }
 
 .nav-item{
     position: relative;
     z-index: 1;
     overflow: hidden;
+    padding: 0 12px 0 0;
 
     &:before{
         content: '';
@@ -36,7 +42,6 @@
         width: 0;
         background-color: $blueWhite;
         height: 100%;
-        top: 0;
         transition: .6s;
         z-index: -1;
         transform: skew(-30deg);
@@ -48,6 +53,10 @@
             width: 100%;
         }
     }
+}
+
+.margin-link{
+    margin-right: 1.5rem;
 }
 
 .nav-effect{
