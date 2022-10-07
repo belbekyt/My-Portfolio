@@ -13,12 +13,9 @@
     padding: 50px 40px 20px 80px;
 }
 
-.jw-logo{
+.jw-logo, .epinote-logo{
     width: 100%;
-}
-
-.epinote-logo{
-    width: 100%;
+    margin: auto;
 }
 
 .card-details{
@@ -89,7 +86,4 @@
 
 .card-photo{
     width: 45%;
-    img{
-        margin: auto;
-    }
 }
