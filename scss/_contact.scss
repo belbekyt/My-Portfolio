@@ -1,0 +1,22 @@
+.contact-section{
+    background-color: $darkGray;
+    color: white;
+    margin-top: 20px;
+    overflow-x: hidden;
+
+    .shelf{
+        background-color: white;
+    }
+
+    .main-text{
+        margin-top:20px;
+    }
+}
+
+.white-triangle{
+    width: 0px;
+    height: 0px;
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid transparent;
+    border-top: 70px solid white;
+}
