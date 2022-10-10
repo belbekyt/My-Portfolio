@@ -1,6 +1,5 @@
 .contact-section{
     background-color: $darkGray;
-    color: white;
     margin-top: 20px;
     overflow-x: hidden;
 
@@ -10,6 +9,19 @@
 
     .main-text{
         margin-top:20px;
+    }
+
+    h3{
+        margin-top: 20px;
+    }
+
+    p{
+        margin-bottom: 6px;
+    }
+
+    a{
+        width: 270px;
+        text-decoration: none;
     }
 }
 

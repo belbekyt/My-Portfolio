@@ -15,12 +15,12 @@ body {
   height: 60px;
 }
 
-.bi-github, .bi-linkedin {
+.bi-github, .bi-linkedin, .bi-envelope {
   font-size: 21px;
   padding: 12px;
   overflow: hidden;
 }
-.bi-github:hover, .bi-linkedin:hover {
+.bi-github:hover, .bi-linkedin:hover, .bi-envelope:hover {
   font-size: 23px;
 }
 
@@ -97,7 +97,7 @@ header h2 {
   top: 0;
   -webkit-transform: skew(-22deg);
           transform: skew(-22deg);
-  background-color: #252934;
+  background-color: #0da2ff;
 }
 
 .about-section {
@@ -278,7 +278,6 @@ header h2 {
 
 .contact-section {
   background-color: #252934;
-  color: white;
   margin-top: 20px;
   overflow-x: hidden;
 }
@@ -288,6 +287,16 @@ header h2 {
 .contact-section .main-text {
   margin-top: 20px;
 }
+.contact-section h3 {
+  margin-top: 20px;
+}
+.contact-section p {
+  margin-bottom: 6px;
+}
+.contact-section a {
+  width: 270px;
+  text-decoration: none;
+}
 
 .white-triangle {
   width: 0px;
@@ -295,6 +304,10 @@ header h2 {
   border-left: 50vw solid transparent;
   border-right: 50vw solid transparent;
   border-top: 70px solid white;
+}
+
+footer {
+  background-color: #1b242f;
 }
 
 @media only screen and (max-width: 1480px) {
