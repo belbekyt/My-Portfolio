@@ -4,23 +4,25 @@ header{
     height: calc(100vh - 65px);
     overflow: hidden;
     background-color: $gray;
+    padding-left: 12%;
 
     h1{
+        position: relative;
         font-size: 60px;
-        margin: 30vh 0 -10px 12%;
+        margin: 30vh 0 -10px 0;
     }
 
     h2{
+        position: relative;
         font-size: 38px;
         color: $blueDark;
-        margin-left: 12%;
     }
 }
 
 .box{
     position: absolute;
     height: calc(100vh - 5px);
-    width: 650px;
+    width: 40%;
     right: -150px;
     top: 0;
     transform: skew(-22deg);
