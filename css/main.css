@@ -124,6 +124,9 @@ header img {
   height: 4px;
   background-color: RGB(57, 57, 57);
   margin-bottom: 70px;
+  margin-left: -110%;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .about-info img {
@@ -463,4 +466,19 @@ footer {
   header img {
     width: 280px;
   }
+}
+.hidden {
+  margin-left: -110%;
+  opacity: 0;
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.show {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  opacity: 1;
+  margin-left: 0;
 }
