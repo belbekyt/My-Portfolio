@@ -7,6 +7,7 @@
     font-weight: bold;
     font-size: 35px;
     margin-top: 60px;
+    transition: 1s;
 }
 
 .shelf{
@@ -14,8 +15,7 @@
     height: 4px;
     background-color: $blackLight;
     margin-bottom: 70px;
-    margin-left: -110%;
-    transition: 1s;
+    transition: 1.4s;
 }
 
 .about-info{
@@ -99,6 +99,6 @@
 
 .language-percent6{
     &:before{
-        width: 10%;
+        width: 20%;
     }
 }

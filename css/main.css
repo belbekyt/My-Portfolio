@@ -83,12 +83,16 @@ header {
 header h1 {
   position: relative;
   font-size: 60px;
-  margin: 30vh 0 -10px 0;
+  margin: 30vh 0 -10px 0px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 header h2 {
   position: relative;
   font-size: 38px;
   color: #0da2ff;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
 }
 header img {
   position: absolute;
@@ -117,6 +121,8 @@ header img {
   font-weight: bold;
   font-size: 35px;
   margin-top: 60px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .shelf {
@@ -124,9 +130,8 @@ header img {
   height: 4px;
   background-color: RGB(57, 57, 57);
   margin-bottom: 70px;
-  margin-left: -110%;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 1.4s;
+  transition: 1.4s;
 }
 
 .about-info img {
@@ -194,7 +199,7 @@ header img {
 }
 
 .language-percent6:before {
-  width: 10%;
+  width: 20%;
 }
 
 .experience-section {
@@ -203,6 +208,8 @@ header img {
 
 .experience-heading-text {
   margin: -60px 0 80px 0;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
 }
 
 .experience-card {
@@ -285,6 +292,8 @@ header img {
 .project-card {
   width: 430px;
   margin: auto;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .contact-section {
@@ -307,6 +316,10 @@ header img {
 .contact-section a {
   width: 270px;
   text-decoration: none;
+}
+.contact-section .row {
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
 }
 
 .white-triangle {
@@ -468,17 +481,8 @@ footer {
   }
 }
 .hidden {
-  margin-left: -110%;
   opacity: 0;
   -webkit-filter: blur(5px);
           filter: blur(5px);
-  -webkit-transition: all 1s;
-  transition: all 1s;
-}
-
-.show {
-  -webkit-filter: blur(0px);
-          filter: blur(0px);
-  opacity: 1;
-  margin-left: 0;
+  margin-left: -46%;
 }

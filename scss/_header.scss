@@ -9,13 +9,15 @@ header{
     h1{
         position: relative;
         font-size: 60px;
-        margin: 30vh 0 -10px 0;
+        margin: 30vh 0 -10px 0px;
+        transition: 1s;
     }
 
     h2{
         position: relative;
         font-size: 38px;
         color: $blueDark;
+        transition: 1.5s;
     }
 
     img{

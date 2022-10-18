@@ -1,12 +1,6 @@
 .hidden{
-    margin-left: -110%;
     opacity: 0;
     filter: blur(5px);
-    transition: all 1s;
+    margin-left: -46%;
 }
 
-.show{
-    filter: blur(0px);
-    opacity: 1;
-    margin-left: 0;
-}

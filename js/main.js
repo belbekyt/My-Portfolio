@@ -1,12 +1,17 @@
+const options = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 1.0
+}
+
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
-        console.log(entry);
         if(entry.isIntersecting){
-            entry.target.classList.add('show');
+            entry.target.classList.remove('hidden');
             observer.unobserve(entry.target);
         }
     });
-});
+}, options);
 
-const shelfElements = document.querySelectorAll('.hidden');
-shelfElements.forEach((el) => observer.observe(el));
+const hiddenElements = document.querySelectorAll('.hidden');
+hiddenElements.forEach((el) => observer.observe(el));
