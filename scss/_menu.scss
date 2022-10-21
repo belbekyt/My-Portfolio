@@ -1,7 +1,8 @@
 .navbar{
     font-size: 15px;
     line-height: 15px;
-    height: 60px;
+    height: 75px;
+    padding: 0;
 }
 
 .bi-github, .bi-linkedin, .bi-envelope{
@@ -23,6 +24,10 @@
 
     &:hover{
         color: $blueDark;
+    }
+
+    img{
+        width: 240px;
     }
 }
 

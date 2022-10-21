@@ -100,6 +100,10 @@
             }
         }
     }
+
+    .navbar-collapse{
+        margin-top: -15px;
+    }
 }
 
 @media only screen and (max-width: 680px) {
@@ -152,6 +156,14 @@
         img{
             width: 300px;
             left: 20%;
+        }
+    }
+
+    .navbar-brand{
+        margin: 0 0 0 10px;
+
+        img{
+            width: 180px;
         }
     }
 }
