@@ -250,8 +250,7 @@ header img {
 }
 .card-details a {
   display: inline-block;
-  margin-top: 1.6rem;
-  margin-left: 1rem;
+  margin: 1.6rem 0 0 1rem;
   color: RGB(57, 57, 57);
   font-weight: bold;
   text-decoration: none;
@@ -274,14 +273,14 @@ header img {
   top: -6px;
   z-index: -1;
   background-color: #8cd3ff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 .card-details a:hover i {
   margin-left: 1.3rem;
 }
 .card-details a:hover::before {
-  width: 215px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  width: 225px;
 }
 
 .card-photo {
