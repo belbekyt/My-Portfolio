@@ -342,7 +342,10 @@ footer {
   display: -ms-flexbox;
   display: flex;
   height: 35px;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
+  color: white;
+}
+.mailbox-icon-fix:hover {
   color: white;
 }
 .mailbox-icon-fix span {

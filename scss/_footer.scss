@@ -5,8 +5,12 @@ footer{
 .mailbox-icon-fix{
     display: flex;
     height: 35px;
-    margin-bottom: 5px;
+    margin-bottom: 7px;
     color: white;
+
+    &:hover{
+        color: white;
+    }
     
     span{
         padding-top: 14px;
