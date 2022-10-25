@@ -475,6 +475,9 @@ footer {
   .navbar-brand img {
     width: 180px;
   }
+  .navbar-collapse {
+    margin-top: 2px;
+  }
 }
 @media only screen and (max-width: 500px) {
   header h1 {
@@ -490,6 +493,43 @@ footer {
   }
   header img {
     width: 280px;
+  }
+  .experience-card {
+    width: 91%;
+  }
+  .projects-gallery {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 369px) {
+  .navbar {
+    height: 110px;
+  }
+  .navbar-brand {
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .icons-holder {
+    padding-left: 23%;
+  }
+  .navbar-collapse {
+    margin-top: -3px;
+  }
+  .card-details h2 {
+    font-size: 30px;
+    margin-top: 0px;
+  }
+  .company-name {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .main-text {
+    font-size: 30px;
+  }
+  .experience-card {
+    width: 100%;
   }
 }
 .hidden {
