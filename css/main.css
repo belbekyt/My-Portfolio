@@ -337,6 +337,18 @@ footer {
   background-color: #1b242f;
 }
 
+.mailbox-icon-fix {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 35px;
+  margin-bottom: 5px;
+  color: white;
+}
+.mailbox-icon-fix span {
+  padding-top: 14px;
+}
+
 @media only screen and (max-width: 1480px) {
   .project-card {
     width: 350px;
@@ -536,5 +548,5 @@ footer {
   opacity: 0;
   -webkit-filter: blur(5px);
           filter: blur(5px);
-  margin-left: -46%;
+  margin-left: -40%;
 }

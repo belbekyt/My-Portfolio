@@ -1,3 +1,14 @@
 footer{
     background-color: #1b242f;
 }
+
+.mailbox-icon-fix{
+    display: flex;
+    height: 35px;
+    margin-bottom: 5px;
+    color: white;
+    
+    span{
+        padding-top: 14px;
+    }
+}
