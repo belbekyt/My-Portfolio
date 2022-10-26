@@ -13,5 +13,14 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, options);
 
+let height = window.screen.availHeight;
+let width = window.screen.availWidth;
 const hiddenElements = document.querySelectorAll('.hidden');
-hiddenElements.forEach((el) => observer.observe(el));
+
+if(height < 549 && width < 376){
+    hiddenElements.forEach((el) => {
+        el.classList.remove('hidden');
+    })    
+} else{
+    hiddenElements.forEach((el) => observer.observe(el));
+}

@@ -547,6 +547,113 @@ footer {
     width: 100%;
   }
 }
+@media only screen and (max-width: 550px) and (max-height: 720px) {
+  header h1 {
+    margin: 20px 0 -10px 0;
+  }
+}
+@media only screen and (max-width: 550px) and (max-height: 620px) {
+  header img {
+    width: 250px;
+    left: 30%;
+  }
+}
+@media only screen and (max-width: 550px) and (max-height: 545px) {
+  header img {
+    margin-bottom: -50px;
+  }
+}
+@media only screen and (max-width: 550px) and (max-height: 490px) {
+  header h1 {
+    margin: 0 0 -10px 0;
+  }
+  header img {
+    width: 230px;
+  }
+}
+@media only screen and (max-width: 550px) and (max-height: 440px) {
+  header h1 {
+    font-size: 40px;
+  }
+  header h2 {
+    font-size: 25px;
+  }
+  header img {
+    width: 210px;
+  }
+}
+@media only screen and (max-width: 550px) and (max-height: 400px) {
+  header h1 {
+    font-size: 35px;
+  }
+  header h2 {
+    font-size: 25px;
+  }
+  header img {
+    width: 190px;
+  }
+}
+@media only screen and (max-width: 550px) and (max-height: 365px) {
+  header h1 {
+    font-size: 30px;
+  }
+  header h2 {
+    font-size: 22px;
+  }
+  header img {
+    width: 170px;
+  }
+}
+@media only screen and (max-width: 285px) {
+  header h1 {
+    font-size: 27px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  header img {
+    width: 170px;
+  }
+}
+@media only screen and (max-width: 250px) {
+  .main-text {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 290px) and (max-height: 476px) {
+  header h1 {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  header img {
+    width: 220px;
+    left: 15%;
+  }
+}
+@media only screen and (max-width: 290px) and (max-height: 400px) {
+  header h1 {
+    margin-top: 0;
+  }
+  header img {
+    width: 205px;
+  }
+}
+@media only screen and (max-width: 240px) {
+  header h1 {
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width: 1000px) and (max-height: 735px) {
+  header img {
+    width: 400px;
+  }
+}
+@media only screen and (min-width: 1000px) and (max-height: 660px) {
+  header img {
+    width: 350px;
+    left: 60%;
+  }
+}
 .hidden {
   opacity: 0;
   -webkit-filter: blur(5px);
