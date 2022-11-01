@@ -1,8 +1,16 @@
+let hiddenElements = document.querySelectorAll('.addhidden');
+
 const options = {
     root: null,
     rootMargin: '0px',
     threshold: 1.0
 }
+
+const ios = () => {
+    if (typeof window === `undefined` || typeof navigator === `undefined`) return false;
+
+    return /iPhone|iPad|iPod/i.test(navigator.userAgent || navigator.vendor || (window.opera && opera.toString() === `[object Opera]`));
+};
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
@@ -13,14 +21,10 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, options);
 
-let height = window.screen.availHeight;
-let width = window.screen.availWidth;
-const hiddenElements = document.querySelectorAll('.hidden');
+if(!ios()){
+    hiddenElements.forEach(el => {
+        el.classList.add('hidden');
+    })
 
-if(height < 549 && width < 376){
-    hiddenElements.forEach((el) => {
-        el.classList.remove('hidden');
-    })    
-} else{
     hiddenElements.forEach((el) => observer.observe(el));
 }
