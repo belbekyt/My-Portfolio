@@ -1,4 +1,4 @@
-let hiddenElements = document.querySelectorAll('.addhidden');
+let hiddenElements = document.querySelectorAll('.add-hidden');
 
 const options = {
     root: null,
@@ -23,8 +23,8 @@ const observer = new IntersectionObserver((entries) => {
 
 if(!ios()){
     hiddenElements.forEach(el => {
+        el.classList.remove('add-hidden');
         el.classList.add('hidden');
+        observer.observe(el);
     })
-
-    hiddenElements.forEach((el) => observer.observe(el));
 }
