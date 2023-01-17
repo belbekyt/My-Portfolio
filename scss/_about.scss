@@ -1,6 +1,7 @@
 .about-section{
     width: 100%;
     color: $blackLight;
+    height: auto;
 }
 
 .main-text{
@@ -31,7 +32,7 @@
 }
 
 .about-column{
-    height: 400px;
+    height: auto;
     margin-bottom: 110px;
 }
 
@@ -87,7 +88,7 @@
 
 .language-percent4{
     &:before{
-        width: 40%;
+        width: 30%;
     }
 }
 
@@ -99,12 +100,30 @@
 
 .language-percent6{
     &:before{
-        width: 55%;
+        width: 45%;
     }
 }
 
 .language-percent7{
     &:before{
         width: 30%;
+    }
+}
+
+.language-percent8{
+    &:before{
+        width: 40%;
+    }
+}
+
+.language-percent9{
+    &:before{
+        width: 50%;
+    }
+}
+
+.language-percent10{
+    &:before{
+        width: 20%;
     }
 }
