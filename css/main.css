@@ -204,7 +204,7 @@ header img {
 }
 
 .language-percent6:before {
-  width: 45%;
+  width: 75%;
 }
 
 .language-percent7:before {
@@ -242,6 +242,11 @@ header img {
 
 .jw-logo, .epinote-logo {
   width: 100%;
+  margin: auto;
+}
+
+.pikseo-logo {
+  width: 75%;
   margin: auto;
 }
 
